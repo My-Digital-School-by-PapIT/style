@@ -42,7 +42,19 @@
     breaklines=true,
     showstringspaces=false % Mandatory to display spaces in strings with Roboto font
 }
-
+% Modify Beamer template
+% Items
+\setbeamertemplate{itemize items}[square]
+\setbeamertemplate{enumerate items}[square]
+\setbeamertemplate{itemize subitem}[circle]
+\setbeamertemplate{enumerate subitem}[circle]
+\setbeamertemplate{itemize subsubitem}[triangle]
+\setbeamertemplate{enumerate subsubitem}[triangle]
+% TOC
+\setbeamertemplate{section in toc}[circle]
+\setbeamertemplate{subsection in toc}[square]
+% Title
+\setbeamertemplate{title page}[default][colsep=-4bp,rounded=true]
 % Highlight
 \usepackage[most]{tcolorbox}
 \usepackage{cleveref}
